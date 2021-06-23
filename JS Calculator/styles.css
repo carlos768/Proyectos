@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.screen-container{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+#screen{
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.num-container{
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+	justify-content: center;
+}
+
+.btn-num{
+	font-size: 20px;
+	cursor: pointer;
+	padding: 10px;
+}
+
+#n0{
+	grid-area: 4 / 1 / -2 / -1;
+}
+
+.operators-container{
+	display: flex;
+	justify-content: center;
+}
+
+.operators{
+	padding: 20px;
+	font-size: 20px;
+
+}
+
+#res{
+	flex-basis: 193px;
+}
